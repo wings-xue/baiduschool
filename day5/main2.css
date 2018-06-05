@@ -1,0 +1,44 @@
+body {
+    width: 40%;
+    margin: 0 auto; 
+    border: 1px solid black;
+    height: 900px;
+    margin-top: 30px;
+}
+
+.resume {
+    float: top;
+    width: 100%;
+    margin-top: 0px;
+    background-color: brown; 
+    font-size: 30px;
+    height: 70px; 
+    line-height: 200%;
+    margin-bottom: 0px;
+}
+
+
+
+
+  h2 {
+    float: left;
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #d6d6d6;
+    border-bottom: 2px solid #fefefe;
+    border-right: 1px solid #d6d6d6;
+    /* font-size: 20px;  */
+    margin: 0px;
+  }
+ p {
+    float: left;
+    width: 70%;
+    height: 100px;
+    padding:15px 0 0 15px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d6d6d6;
+    border-bottom: 2px solid #fefefe;
+  }

@@ -53,9 +53,105 @@ a#logo {
     height: 250px;
 }
 
-#page:first-child {
-    border: 1px solid red;
+#page {
+    border: 1px solid rgb(54, 53, 53);
     width: 20px;
-    height: 20px;
+    height: 25px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#page:nth-child(2) {
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 1%;
+    height: 40px;
+}
+
+
+#line1 {
+    border-bottom: 1px solid grey;
+    flex: 0.5
+}
+
+
+
+#line2 {
+    border-bottom: 1px solid grey;
+    flex: 0.5
+}
+
+#nav-content {
+    flex-basis: 960px; 
+    display:flex;  
+}
+
+#tab {
+    font-size: 16px;
+    color: grey;
+    border: 1px solid grey;
+    width: 80px; 
+    height: 40px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none; 
+    text-align: center;
+    line-height: 40px;
+}
+
+#tab-d {
+    font-size: 16px;
+    color: grey;
+    border: 1px solid grey;
+    width: 80px; 
+    height: 40px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none; 
+    text-align: center;
+    line-height: 40px;
+    background: #e4e2e2;
+}
+
+#tab-line {
+    border-bottom: 1px solid grey;
+    flex: 1;
+
+}
+
+
+#main-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row; 
+    width: 960px;
+    margin: auto;
+    margin-top: 10px;
+    height: 120px;
+}
+
+
+#main-content > div {
+    border: 1px solid grey;
+    padding: 1rem;
+    flex: auto;
+    height: 30px;
+    height: 120px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: #343434;
+    text-align: center;
+    margin-top:20px;
+    color: white;
 }
 
